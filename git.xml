@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<framework xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schemas/frameworkDescriptionVersion1.1.xsd" name="git" invoke="/usr/bin/git" alias="g" enabled="true" version="1">
+  <command>
+    <name>add .</name>
+  </command>
+  <command>
+    <name>commit -a</name>
+  </command>
+  <command>
+    <name>commit -m</name>
+    <params>"fixed "</params>
+  </command>
+  <command>
+    <name>push origin</name>
+    <params>branch_name[=null]</params>
+  </command>
+</framework>
